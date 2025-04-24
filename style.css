@@ -60,9 +60,9 @@ input{
 }
 
 button {
-    width: 150px;                    /* or 100% or any fixed size you like */
+    width: 150px;                    
     padding: 12px 24px;
-    background-color: purple;      /* purple shade */
+    background-color: purple;      
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -73,7 +73,7 @@ button {
 }
 
 button:hover {
-    background-color: #6a0dad;       /* slightly darker on hover */
+    background-color: #6a0dad;       
 }
 
 
