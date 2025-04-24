@@ -1,0 +1,88 @@
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+h1{
+    font-size: 3rem;
+}
+
+h1,p {
+    justify-self: center;
+}
+
+#greeting{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #AA6DA3;
+    padding: 40px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+form{
+    border: 4px solid purple;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: bottom;
+    padding: 20px;
+}
+
+input{
+    justify-self: center;
+    width: 70%;
+    height: 40%;
+    padding: 5%;
+}
+
+button {
+    width: 150px;                    /* or 100% or any fixed size you like */
+    padding: 12px 24px;
+    background-color: purple;      /* purple shade */
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6a0dad;       /* slightly darker on hover */
+}
+
+
+@media only screen and (max-width: 600px) {
+    main{
+        display: block;
+    }
+
+    button{
+        padding: 10%;
+    }
+}
